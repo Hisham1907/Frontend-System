@@ -58,9 +58,10 @@ function App() {
 
   return (
     <div className="p-4">
-        <div className="col-12 d-flex justify-content-between align-items-center">
+        <div className="d-flex flex-column flex-md-row justify-content-between align-items-center">
         <Logo />
         <Input
+        className="mt-2 mt-md-0"
           placeholder="Search ...."
           onChange={(e) => handleSearch(e.target.value)}
           value={searchTerm}
