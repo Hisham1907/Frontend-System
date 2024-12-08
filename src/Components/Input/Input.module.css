@@ -30,4 +30,20 @@
     color: #8F9BB3;
   }
   
+  @media (max-width: 768px) {
+    .inputBox label {
+      font-size: .9rem;
+     }
+    .inputBox input {
+      padding: 8px;
+    }
+    
+  }
+  @media (max-width: 600px) {
   
+    .inputBox input {
+      padding: 6px;
+    }
+     
+   
+  }
