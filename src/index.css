@@ -1,0 +1,10 @@
+ 
+body{
+  background-color: #222B45;
+  color: #fff;
+}
+img{
+  filter: invert(1) brightness(2) hue-rotate(160deg);
+width: 200px;
+   
+}
